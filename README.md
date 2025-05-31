@@ -20,7 +20,7 @@ Fallback methods:
 
 # Example
 
-```
+```go
 func main() {
     clip, err := clipper.GetClipboard(clipper.Clipboards...)
     must(err)
